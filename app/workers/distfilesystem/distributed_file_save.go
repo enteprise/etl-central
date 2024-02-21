@@ -6,11 +6,11 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/dataplane-app/dataplane/app/mainapp/code_editor/filesystem"
-	"github.com/dataplane-app/dataplane/app/mainapp/database"
-	"github.com/dataplane-app/dataplane/app/mainapp/database/models"
-	"github.com/dataplane-app/dataplane/app/mainapp/utilities"
-	wrkerconfig "github.com/dataplane-app/dataplane/app/workers/config"
+	"github.com/enteprise/etl-central/app/mainapp/code_editor/filesystem"
+	"github.com/enteprise/etl-central/app/mainapp/database"
+	"github.com/enteprise/etl-central/app/mainapp/database/models"
+	"github.com/enteprise/etl-central/app/mainapp/utilities"
+	wrkerconfig "github.com/enteprise/etl-central/app/workers/config"
 	"gorm.io/gorm/clause"
 )
 
