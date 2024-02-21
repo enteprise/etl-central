@@ -4,10 +4,10 @@ import (
 	"log"
 	"time"
 
-	"github.com/dataplane-app/dataplane/app/mainapp/database"
-	"github.com/dataplane-app/dataplane/app/mainapp/database/models"
-	modelmain "github.com/dataplane-app/dataplane/app/mainapp/database/models"
-	"github.com/dataplane-app/dataplane/app/workers/mqworker"
+	"github.com/enteprise/etl-central/app/mainapp/database"
+	"github.com/enteprise/etl-central/app/mainapp/database/models"
+	modelmain "github.com/enteprise/etl-central/app/mainapp/database/models"
+	"github.com/enteprise/etl-central/app/workers/mqworker"
 	"github.com/google/uuid"
 )
 
