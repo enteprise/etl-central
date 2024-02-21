@@ -7,12 +7,12 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/dataplane-app/dataplane/app/mainapp/database/models"
+	"https://github.com/enteprise/etl-central.git/app/mainapp/database/models"
 
-	"github.com/dataplane-app/dataplane/app/workers/cmetric"
-	wrkerconfig "github.com/dataplane-app/dataplane/app/workers/config"
-	"github.com/dataplane-app/dataplane/app/workers/logging"
-	"github.com/dataplane-app/dataplane/app/workers/mqworker"
+	"https://github.com/enteprise/etl-central.git/app/workers/cmetric"
+	wrkerconfig "https://github.com/enteprise/etl-central.git/app/workers/config"
+	"https://github.com/enteprise/etl-central.git/app/workers/logging"
+	"https://github.com/enteprise/etl-central.git/app/workers/mqworker"
 
 	"github.com/shirou/gopsutil/cpu"
 	"github.com/shirou/gopsutil/load"
