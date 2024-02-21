@@ -5,10 +5,10 @@ import (
 	"log"
 	"strings"
 
-	"github.com/dataplane-app/dataplane/app/mainapp/database/models"
-	wrkerconfig "github.com/dataplane-app/dataplane/app/workers/config"
+	"github.com/enteprise/etl-central/app/mainapp/database/models"
+	wrkerconfig "github.com/enteprise/etl-central/app/workers/config"
 
-	"github.com/dataplane-app/dataplane/app/mainapp/database"
+	"github.com/enteprise/etl-central/app/mainapp/database"
 )
 
 /*
