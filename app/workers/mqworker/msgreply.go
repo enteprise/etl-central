@@ -3,7 +3,7 @@ package mqworker
 import (
 	"time"
 
-	"github.com/dataplane-app/dataplane/app/mainapp/messageq"
+	"github.com/enteprise/etl-central/app/mainapp/messageq"
 )
 
 func MsgReply(channel string, msg interface{}, response interface{}) (interface{}, error) {
