@@ -5,8 +5,8 @@ import (
 	"syscall"
 	"time"
 
-	modelmain "github.com/dataplane-app/dataplane/app/mainapp/database/models"
-	"github.com/dataplane-app/dataplane/app/mainapp/messageq"
+	modelmain "github.com/enteprise/etl-central/app/mainapp/database/models"
+	"github.com/enteprise/etl-central/app/mainapp/messageq"
 
 	"github.com/gofiber/fiber/v2"
 )
