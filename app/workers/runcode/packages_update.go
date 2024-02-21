@@ -10,12 +10,12 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/dataplane-app/dataplane/app/mainapp/database/models"
-	modelmain "github.com/dataplane-app/dataplane/app/mainapp/database/models"
+	"github.com/enteprise/etl-central/app/mainapp/database/models"
+	modelmain "github.com/enteprise/etl-central/app/mainapp/database/models"
 
-	"github.com/dataplane-app/dataplane/app/mainapp/database"
-	wrkerconfig "github.com/dataplane-app/dataplane/app/workers/config"
-	"github.com/dataplane-app/dataplane/app/workers/mqworker"
+	"github.com/enteprise/etl-central/app/mainapp/database"
+	wrkerconfig "github.com/enteprise/etl-central/app/workers/config"
+	"github.com/enteprise/etl-central/app/workers/mqworker"
 
 	"github.com/google/uuid"
 	clog "github.com/pieterclaerhout/go-log"
