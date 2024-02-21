@@ -5,11 +5,11 @@ import (
 	"os"
 	"strings"
 
-	modelmain "github.com/dataplane-app/dataplane/app/mainapp/database/models"
-	"github.com/dataplane-app/dataplane/app/mainapp/utilities"
+	modelmain "github.com/enteprise/etl-central/app/mainapp/database/models"
+	"github.com/enteprise/etl-central/app/mainapp/utilities"
 
-	"github.com/dataplane-app/dataplane/app/mainapp/database"
-	wrkerconfig "github.com/dataplane-app/dataplane/app/workers/config"
+	"github.com/enteprise/etl-central/app/mainapp/database"
+	wrkerconfig "github.com/enteprise/etl-central/app/workers/config"
 )
 
 var SecretsArray = []string{}
