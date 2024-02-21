@@ -6,10 +6,10 @@ import (
 	"syscall"
 	"time"
 
-	modelmain "github.com/dataplane-app/dataplane/app/mainapp/database/models"
+	modelmain "github.com/enteprise/etl-central/app/mainapp/database/models"
 
-	"github.com/dataplane-app/dataplane/app/mainapp/messageq"
-	wrkerconfig "github.com/dataplane-app/dataplane/app/workers/config"
+	"github.com/enteprise/etl-central/app/mainapp/messageq"
+	wrkerconfig "github.com/enteprise/etl-central/app/workers/config"
 )
 
 type TaskResponse struct {
