@@ -7,12 +7,12 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/enteprise/etl-central.git/app/mainapp/database/models"
+	"github.com/enteprise/etl-central/app/mainapp/database/models"
 
-	"github.com/enteprise/etl-central.git/app/workers/cmetric"
-	wrkerconfig "github.com/enteprise/etl-central.git/app/workers/config"
-	"github.com/enteprise/etl-central.git/app/workers/logging"
-	"github.com/enteprise/etl-central.git/app/workers/mqworker"
+	"github.com/enteprise/etl-central/app/workers/cmetric"
+	wrkerconfig "github.com/enteprise/etl-central/app/workers/config"
+	"github.com/enteprise/etl-central/app/workers/logging"
+	"github.com/enteprise/etl-central/app/workers/mqworker"
 
 	"github.com/shirou/gopsutil/cpu"
 	"github.com/shirou/gopsutil/load"
