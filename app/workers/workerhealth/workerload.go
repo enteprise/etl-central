@@ -6,10 +6,10 @@ import (
 	"os"
 	"time"
 
-	"github.com/dataplane-app/dataplane/app/mainapp/database/models"
-	"github.com/dataplane-app/dataplane/app/mainapp/messageq"
+	"github.com/enteprise/etl-central.git/app/mainapp/database/models"
+	"github.com/enteprise/etl-central.git/app/mainapp/messageq"
 
-	wrkerconfig "github.com/dataplane-app/dataplane/app/workers/config"
+	wrkerconfig "github.com/enteprise/etl-central.git/app/workers/config"
 
 	"github.com/shirou/gopsutil/cpu"
 	"github.com/shirou/gopsutil/load"
