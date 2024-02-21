@@ -1,8 +1,8 @@
 package secrets
 
 import (
-	"github.com/dataplane-app/dataplane/app/mainapp/messageq"
-	wrkerconfig "github.com/dataplane-app/dataplane/app/workers/config"
+	"github.com/enteprise/etl-central/app/mainapp/messageq"
+	wrkerconfig "github.com/enteprise/etl-central/app/workers/config"
 )
 
 type TaskResponse struct {
