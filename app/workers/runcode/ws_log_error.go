@@ -3,9 +3,9 @@ package runcodeworker
 import (
 	"time"
 
-	"github.com/dataplane-app/dataplane/app/mainapp/database"
-	modelmain "github.com/dataplane-app/dataplane/app/mainapp/database/models"
-	"github.com/dataplane-app/dataplane/app/mainapp/messageq"
+	github.com/enteprise/etl-central/app/mainapp/database"
+	modelmain github.com/enteprise/etl-central/app/mainapp/database/models"
+	github.com/enteprise/etl-central/app/mainapp/messageq"
 	"github.com/google/uuid"
 )
 
