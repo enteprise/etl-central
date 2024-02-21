@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"log"
 
-	wrkerconfig "github.com/dataplane-app/dataplane/app/workers/config"
+	wrkerconfig "github.com/enteprise/etl-central/app/workers/config"
 )
 
 func PrintSecretsRedact(logmessages ...interface{}) {
