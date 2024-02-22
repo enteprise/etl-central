@@ -4,10 +4,10 @@ import (
 	"log"
 	"strings"
 
-	dpconfig "github.com/dataplane-app/dataplane/app/mainapp/config"
-	"github.com/dataplane-app/dataplane/app/mainapp/utilities"
+	dpconfig "github.com/enteprise/etl-central/app/mainapp/config"
+	"github.com/enteprise/etl-central/app/mainapp/utilities"
 
-	"github.com/dataplane-app/dataplane/app/mainapp/messageq"
+	"github.com/enteprise/etl-central/app/mainapp/messageq"
 	"github.com/gofiber/websocket/v2"
 	"github.com/nats-io/nats.go"
 )
