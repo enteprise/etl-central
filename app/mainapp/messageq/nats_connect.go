@@ -5,7 +5,7 @@ import (
 	"os"
 	"time"
 
-	"github.com/dataplane-app/dataplane/app/mainapp/logging"
+	"github.com/enteprise/etl-central/app/mainapp/logging"
 
 	"github.com/nats-io/nats.go"
 )
