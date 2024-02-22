@@ -4,7 +4,7 @@ import (
 	"log"
 	"time"
 
-	"github.com/dataplane-app/dataplane/app/mainapp/database/models"
+	"github.com/enteprise/etl-central/app/mainapp/database/models"
 )
 
 /*
