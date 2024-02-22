@@ -5,13 +5,13 @@ import (
 	"log"
 	"testing"
 
-	"github.com/dataplane-app/dataplane/app/mainapp/database/models"
+	"github.com/enteprise/etl-central/app/mainapp/database/models"
 
 	"github.com/stretchr/testify/assert"
 )
 
 /*
-go test -timeout 30s -v -run ^TestRoundRobin$ github.com/dataplane-app/dataplane/app/mainapp/utilities
+go test -timeout 30s -v -run ^TestRoundRobin$ github.com/enteprise/etl-central/app/mainapp/utilities
 */
 func TestRoundRobin(t *testing.T) {
 
