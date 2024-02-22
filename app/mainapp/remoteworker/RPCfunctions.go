@@ -5,7 +5,7 @@ import (
 	"errors"
 	"log"
 
-	"github.com/dataplane-app/dataplane/app/mainapp/database/models"
+	"github.com/enteprise/etl-central/app/mainapp/database/models"
 )
 
 /* This function returns an error for JSON RPC 2.0 */
