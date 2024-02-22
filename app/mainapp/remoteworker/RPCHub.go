@@ -3,7 +3,7 @@ package remoteworker
 import (
 	"log"
 
-	dpconfig "github.com/dataplane-app/dataplane/app/mainapp/config"
+	dpconfig "github.com/enteprise/etl-central/app/mainapp/config"
 	"github.com/gofiber/websocket/v2"
 	cmap "github.com/orcaman/concurrent-map"
 )
