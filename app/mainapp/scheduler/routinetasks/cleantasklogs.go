@@ -4,9 +4,9 @@ import (
 	"log"
 	"strconv"
 
-	dpconfig "github.com/dataplane-app/dataplane/app/mainapp/config"
+	dpconfig "github.com/enteprise/etl-central/app/mainapp/config"
 
-	"github.com/dataplane-app/dataplane/app/mainapp/database/models"
+	"github.com/enteprise/etl-central/app/mainapp/database/models"
 
 	"github.com/go-co-op/gocron"
 	"gorm.io/gorm"
