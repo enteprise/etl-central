@@ -4,14 +4,14 @@ import (
 	"log"
 	"testing"
 
-	"github.com/dataplane-app/dataplane/app/mainapp/database/models"
+	"github.com/enteprise/etl-central/app/mainapp/database/models"
 
 	"github.com/stretchr/testify/assert"
 )
 
 /*
 Run Super secret squirrel function test
-go test -timeout 30s -v -run ^TestGraphCycleCheckFunction$ github.com/dataplane-app/dataplane/app/mainapp/utilities
+go test -timeout 30s -v -run ^TestGraphCycleCheckFunction$ github.com/enteprise/etl-central/app/mainapp/utilities
 */
 
 // node1 > [node2, node3, node4] > node5 > node6
