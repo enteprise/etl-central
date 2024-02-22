@@ -3,9 +3,9 @@ package remoteworker
 import (
 	"log"
 
-	distributefilesystem "github.com/dataplane-app/dataplane/app/mainapp/code_editor/distribute_filesystem"
-	"github.com/dataplane-app/dataplane/app/mainapp/code_editor/filesystem"
-	"github.com/dataplane-app/dataplane/app/mainapp/database/models"
+	distributefilesystem "github.com/enteprise/etl-central/app/mainapp/code_editor/distribute_filesystem"
+	"github.com/enteprise/etl-central/app/mainapp/code_editor/filesystem"
+	"github.com/enteprise/etl-central/app/mainapp/database/models"
 	"gorm.io/gorm"
 )
 
