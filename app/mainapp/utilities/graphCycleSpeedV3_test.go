@@ -8,7 +8,7 @@ import (
 
 /*
 Run performance test on graph cycle
-go test -timeout 30s -v -run ^TestGraphCycleSpeedV3$ github.com/dataplane-app/dataplane/app/mainapp/utilities
+go test -timeout 30s -v -run ^TestGraphCycleSpeedV3$ github.com/enteprise/etl-central/app/mainapp/utilities
 */
 func TestGraphCycleSpeedV3(t *testing.T) {
 
