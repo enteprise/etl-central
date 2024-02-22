@@ -3,8 +3,8 @@ package routes
 import (
 	"net/http"
 
-	generated "github.com/dataplane-app/dataplane/app/mainapp/graphql/desktop"
-	desktopgraphql "github.com/dataplane-app/dataplane/app/mainapp/graphql/desktop/resolvers"
+	generated "github.com/enteprise/etl-central/app/mainapp/graphql/desktop"
+	desktopgraphql "github.com/enteprise/etl-central/app/mainapp/graphql/desktop/resolvers"
 
 	"github.com/99designs/gqlgen/graphql/handler"
 	"github.com/gofiber/fiber/v2"
