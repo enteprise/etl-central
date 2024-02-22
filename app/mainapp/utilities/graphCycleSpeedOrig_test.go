@@ -2,7 +2,7 @@ package utilities
 
 /*
 Run performance test on graph cycle
-go test -timeout 30s -v -run ^TestGraphCycleSpeedOrig$ github.com/dataplane-app/dataplane/app/mainapp/utilities
+go test -timeout 30s -v -run ^TestGraphCycleSpeedOrig$ github.com/enteprise/etl-central/app/mainapp/utilities
 */
 // func TestGraphCycleSpeedOrig(t *testing.T) {
 
