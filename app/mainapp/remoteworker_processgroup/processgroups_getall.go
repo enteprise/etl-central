@@ -3,8 +3,8 @@ package remoteworker_processgroup
 import (
 	"log"
 
-	"github.com/dataplane-app/dataplane/app/mainapp/database"
-	"github.com/dataplane-app/dataplane/app/mainapp/database/models"
+	"github.com/enteprise/etl-central/app/mainapp/database"
+	"github.com/enteprise/etl-central/app/mainapp/database/models"
 )
 
 func AllProcessGroups(remoteWorkerID string) ([]models.RemotePGOutput, error) {
