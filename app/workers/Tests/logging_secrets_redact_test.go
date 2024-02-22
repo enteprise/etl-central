@@ -5,9 +5,9 @@ import (
 	"os"
 	"testing"
 
-	"github.com/dataplane-app/dataplane/app/mainapp/database"
-	wrkerconfig "github.com/dataplane-app/dataplane/app/workers/config"
-	"github.com/dataplane-app/dataplane/app/workers/secrets"
+	"github.com/enteprise/etl-central/app/mainapp/database"
+	wrkerconfig "github.com/enteprise/etl-central/app/workers/config"
+	"github.com/enteprise/etl-central/app/workers/secrets"
 
 	"github.com/stretchr/testify/assert"
 )
