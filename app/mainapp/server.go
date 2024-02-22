@@ -4,7 +4,7 @@ import (
 	"log"
 	"os"
 
-	"github.com/dataplane-app/dataplane/app/mainapp/routes"
+	"github.com/enteprise/etl-central/app/mainapp/routes"
 	_ "go.uber.org/automaxprocs"
 )
 
