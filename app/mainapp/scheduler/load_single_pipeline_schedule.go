@@ -5,13 +5,13 @@ import (
 	"log"
 	"time"
 
-	dpconfig "github.com/dataplane-app/dataplane/app/mainapp/config"
+	dpconfig "github.com/enteprise/etl-central/app/mainapp/config"
 	"github.com/go-redis/redis/v8"
 
-	"github.com/dataplane-app/dataplane/app/mainapp/database"
-	"github.com/dataplane-app/dataplane/app/mainapp/database/models"
-	"github.com/dataplane-app/dataplane/app/mainapp/logging"
-	"github.com/dataplane-app/dataplane/app/mainapp/pipelines"
+	"github.com/enteprise/etl-central/app/mainapp/database"
+	"github.com/enteprise/etl-central/app/mainapp/database/models"
+	"github.com/enteprise/etl-central/app/mainapp/logging"
+	"github.com/enteprise/etl-central/app/mainapp/pipelines"
 
 	"github.com/go-co-op/gocron"
 	"github.com/google/uuid"
