@@ -1,9 +1,9 @@
 package worker
 
 import (
-	"github.com/dataplane-app/dataplane/app/mainapp/database"
-	"github.com/dataplane-app/dataplane/app/mainapp/database/models"
-	"github.com/dataplane-app/dataplane/app/mainapp/logging"
+	"github.com/enteprise/etl-central/app/mainapp/database"
+	"github.com/enteprise/etl-central/app/mainapp/database/models"
+	"github.com/enteprise/etl-central/app/mainapp/logging"
 
 	"gorm.io/gorm/clause"
 )
