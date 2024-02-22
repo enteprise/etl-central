@@ -6,7 +6,7 @@ import (
 	"log"
 	"time"
 
-	"github.com/dataplane-app/dataplane/app/mainapp/database"
+	"github.com/enteprise/etl-central/app/mainapp/database"
 	"github.com/go-redis/redis/v8"
 	"github.com/gofiber/websocket/v2"
 )
