@@ -5,8 +5,8 @@ import (
 	"errors"
 	"log"
 
-	"github.com/dataplane-app/dataplane/app/mainapp/database"
-	"github.com/dataplane-app/dataplane/app/mainapp/database/models"
+	"github.com/enteprise/etl-central/app/mainapp/database"
+	"github.com/enteprise/etl-central/app/mainapp/database/models"
 	"github.com/go-redis/redis/v8"
 )
 
