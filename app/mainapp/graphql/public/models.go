@@ -3,7 +3,7 @@
 package publicgraphql
 
 import (
-	"github.com/enteprise/app/mainapp/database/models"
+	"github.com/enteprise/mainapp/database/models"
 )
 
 type AddAdminsInput struct {
